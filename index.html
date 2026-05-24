@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Pranav Vaidhya — Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+</head>
+<body>
+
+  <!-- LOADING SCREEN -->
+  <div id="loader" class="loader">
+    <div class="loader-text">PV<span class="loader-dot">.</span></div>
+  </div>
+
+  <!-- SCROLL TO TOP -->
+  <button id="scrollTop" class="scroll-top" title="Back to top">↑</button>
+
+  <!-- NAVBAR -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-logo">PV<span class="dot">.</span></a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home" class="nav-link">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#services" class="nav-link">Services</a></li>
+        <li><a href="#portfolio" class="nav-link">Work</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <div class="nav-actions">
+        <button id="themeToggle" class="theme-toggle" title="Toggle theme">◐</button>
+        <button class="hamburger" id="hamburger">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO SECTION -->
+  <section id="home" class="hero">
+    <div class="hero-bg">
+      <div class="hero-orb orb-1"></div>
+      <div class="hero-orb orb-2"></div>
+      <div class="hero-grid"></div>
+    </div>
+    <div class="hero-content">
+      <div class="hero-tag reveal">Available for work ✦</div>
+      <h1 class="hero-title reveal">
+        <span class="title-line">Hi, I'm</span>
+        <span class="title-name">Pranav<br>Vaidhya</span>
+      </h1>
+      <p class="hero-role reveal">
+        <span class="role-text">Frontend Developer</span>
+        <span class="role-sep"> · </span>
+        <span class="role-text">Full Stack Enthusiast</span>
+        <span class="role-sep"> · </span>
+        <span class="role-text">JS Engineer</span>
+        <span class="role-sep"> · </span>
+        <span class="role-text">DSA IN JAVA</span>
+      </p>
+      <p class="hero-desc reveal">Crafting beautiful, performant web experiences with clean code and creative design. Turning ideas into pixel-perfect realities.</p>
+      <div class="hero-cta reveal">
+        <a href="#portfolio" class="btn btn-primary">View My Work</a>
+        <a href="#contact" class="btn btn-ghost">Get In Touch</a>
+      </div>
+      <div class="hero-stats reveal">
+        <div class="stat"><span class="stat-num">10+</span><span class="stat-label">Projects</span></div>
+        <div class="stat-divider"></div>
+        <div class="stat"><span class="stat-num">2+</span><span class="stat-label">Years</span></div>
+        <div class="stat-divider"></div>
+        <div class="stat"><span class="stat-num">100%</span><span class="stat-label">Dedication</span></div>
+      </div>
+    </div>
+    <div class="hero-visual reveal">
+      <div class="code-window glass-card">
+        <div class="code-header">
+          <span class="dot red"></span>
+          <span class="dot yellow"></span>
+          <span class="dot green"></span>
+          <span class="code-title">portfolio.js</span>
+        </div>
+        <div class="code-body">
+          <div class="code-line"><span class="kw">const</span> <span class="var">dev</span> <span class="op">=</span> <span class="brace">{</span></div>
+          <div class="code-line indent"><span class="key">name</span><span class="op">:</span> <span class="str">"Pranav Vaidhya"</span><span class="comma">,</span></div>
+          <div class="code-line indent"><span class="key">role</span><span class="op">:</span> <span class="str">"Frontend Dev"</span><span class="comma">,</span></div>
+          <div class="code-line indent"><span class="key">skills</span><span class="op">:</span> <span class="brace">[</span><span class="str">"HTML"</span><span class="comma">,</span> <span class="str">"CSS"</span><span class="comma">,</span> <span class="str">"JS"</span><span class="brace">]</span><span class="comma">,</span></div>
+          <div class="code-line indent"><span class="key">available</span><span class="op">:</span> <span class="bool">true</span></div>
+          <div class="code-line"><span class="brace">}</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT SECTION -->
+  <section id="about" class="about section">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Who I Am</span>
+        <h2 class="section-title">About <em>Me</em></h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-visual reveal">
+          <div class="about-avatar-wrap">
+            <div class="about-avatar">PV</div>
+            <div class="about-badge">⚡ Frontend Dev</div>
+          </div>
+        </div>
+        <div class="about-content reveal">
+          <h3>A passionate developer from India</h3>
+          <p>I'm Pranav Vaidhya, a frontend developer growing through an intensive internship program. I love turning complex problems into simple, beautiful, and intuitive web experiences.</p>
+          <p>My journey started with curiosity about how websites work — now I build them! I specialize in HTML5, CSS3, and JavaScript with a focus on responsive, accessible design.</p>
+          <div class="about-info">
+            <div class="info-item"><span class="info-label">Name</span><span>Pranav Vaidhya</span></div>
+            <div class="info-item"><span class="info-label">Role</span><span>Frontend Developer</span></div>
+            <div class="info-item"><span class="info-label">Location</span><span>India</span></div>
+            <div class="info-item"><span class="info-label">Status</span><span class="available">Available ✦</span></div>
+          </div>
+          <a href="#contact" class="btn btn-primary">Let's Talk</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS SECTION -->
+  <section id="skills" class="skills section">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">What I Know</span>
+        <h2 class="section-title">My <em>Skills</em></h2>
+      </div>
+      <div class="skills-grid">
+        <div class="skill-card glass-card reveal">
+          <div class="skill-icon">🌐</div>
+          <h3>HTML5</h3>
+          <p>Semantic markup, accessibility, SEO structure</p>
+          <div class="skill-bar"><div class="skill-fill" data-width="90"></div></div>
+          <span class="skill-pct">90%</span>
+        </div>
+        <div class="skill-card glass-card reveal">
+          <div class="skill-icon">🎨</div>
+          <h3>CSS3</h3>
+          <p>Grid, Flexbox, animations, responsive design</p>
+          <div class="skill-bar"><div class="skill-fill" data-width="85"></div></div>
+          <span class="skill-pct">85%</span>
+        </div>
+        <div class="skill-card glass-card reveal">
+          <div class="skill-icon">⚡</div>
+          <h3>JavaScript</h3>
+          <p>ES6+, DOM manipulation, async JS</p>
+          <div class="skill-bar"><div class="skill-fill" data-width="80"></div></div>
+          <span class="skill-pct">80%</span>
+        </div>
+        <div class="skill-card glass-card reveal">
+          <div class="skill-icon">📱</div>
+          <h3>Responsive Design</h3>
+          <p>Mobile-first, fluid layouts, media queries</p>
+          <div class="skill-bar"><div class="skill-fill" data-width="88"></div></div>
+          <span class="skill-pct">88%</span>
+        </div>
+        <div class="skill-card glass-card reveal">
+          <div class="skill-icon">🔧</div>
+          <h3>Git & GitHub</h3>
+          <p>Version control, GitHub Pages, collaboration</p>
+          <div class="skill-bar"><div class="skill-fill" data-width="75"></div></div>
+          <span class="skill-pct">75%</span>
+        </div>
+        <div class="skill-card glass-card reveal">
+          <div class="skill-icon">🎯</div>
+          <h3>UI/UX Design</h3>
+          <p>Wireframing, user-centered design</p>
+          <div class="skill-bar"><div class="skill-fill" data-width="70"></div></div>
+          <span class="skill-pct">70%</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES SECTION -->
+  <section id="services" class="services section">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">What I Offer</span>
+        <h2 class="section-title">My <em>Services</em></h2>
+      </div>
+      <div class="services-grid">
+        <div class="service-card reveal">
+          <div class="service-num">01</div>
+          <div class="service-icon">💻</div>
+          <h3>Web Development</h3>
+          <p>Building fast, responsive, and accessible websites using modern HTML5, CSS3, and JavaScript.</p>
+          <ul class="service-list">
+            <li>Responsive layouts</li>
+            <li>Cross-browser compatibility</li>
+            <li>Performance optimization</li>
+          </ul>
+        </div>
+        <div class="service-card reveal">
+          <div class="service-num">02</div>
+          <div class="service-icon">🎨</div>
+          <h3>UI Design</h3>
+          <p>Creating visually stunning interfaces with attention to detail, typography and user experience.</p>
+          <ul class="service-list">
+            <li>Custom CSS animations</li>
+            <li>Dark/light themes</li>
+            <li>Modern UI patterns</li>
+          </ul>
+        </div>
+        <div class="service-card reveal">
+          <div class="service-num">03</div>
+          <div class="service-icon">📱</div>
+          <h3>Mobile-First Design</h3>
+          <p>Designing with a mobile-first philosophy for flawless experiences on all device sizes.</p>
+          <ul class="service-list">
+            <li>Fluid typography</li>
+            <li>Touch-friendly UI</li>
+            <li>Adaptive layouts</li>
+          </ul>
+        </div>
+        <div class="service-card reveal">
+          <div class="service-num">04</div>
+          <div class="service-icon">⚡</div>
+          <h3>JavaScript Apps</h3>
+          <p>Building interactive client-side applications with vanilla JS, DOM manipulation and state management.</p>
+          <ul class="service-list">
+            <li>CRUD applications</li>
+            <li>LocalStorage persistence</li>
+            <li>Dynamic DOM updates</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PORTFOLIO SECTION -->
+  <section id="portfolio" class="portfolio section">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">What I've Built</span>
+        <h2 class="section-title">My <em>Work</em></h2>
+      </div>
+      <div class="portfolio-grid">
+        <div class="portfolio-card reveal">
+          <div class="portfolio-img" style="--c1:#c8f55a;--c2:#1a2a00">
+            <span class="portfolio-emoji">✦</span>
+          </div>
+          <div class="portfolio-info">
+            <span class="portfolio-tag">JavaScript · CSS · HTML</span>
+            <h3>Tasky — To-Do App</h3>
+            <p>Full CRUD to-do app with localStorage, filters, animations and dark UI.</p>
+            <div class="portfolio-links">
+              <a href="https://pranavvaidhya.github.io/tasky-todo-app" target="_blank" class="btn btn-sm">Live Demo</a>
+              <a href="https://github.com/pranavvaidhya/tasky-todo-app" target="_blank" class="btn btn-sm btn-ghost">GitHub</a>
+            </div>
+          </div>
+        </div>
+        <div class="portfolio-card reveal">
+          <div class="portfolio-img" style="--c1:#60a5fa;--c2:#0a1628">
+            <span class="portfolio-emoji">◎</span>
+          </div>
+          <div class="portfolio-info">
+            <span class="portfolio-tag">HTML · CSS</span>
+            <h3>Portfolio Website</h3>
+            <p>Responsive portfolio with CSS Grid, Flexbox, dark/light mode and animations.</p>
+            <div class="portfolio-links">
+              <a href="#" class="btn btn-sm">Live Demo</a>
+              <a href="#" class="btn btn-sm btn-ghost">GitHub</a>
+            </div>
+          </div>
+        </div>
+        <div class="portfolio-card reveal">
+          <div class="portfolio-img" style="--c1:#f472b6;--c2:#1a0010">
+            <span class="portfolio-emoji">⬡</span>
+          </div>
+          <div class="portfolio-info">
+            <span class="portfolio-tag">HTML · CSS · JS</span>
+            <h3>Coming Soon</h3>
+            <p>Next project in progress — stay tuned for something exciting!</p>
+            <div class="portfolio-links">
+              <a href="#" class="btn btn-sm">In Progress</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="testimonials section">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Kind Words</span>
+        <h2 class="section-title">Testimonials</h2>
+      </div>
+      <div class="testimonials-grid">
+        <div class="testimonial-card glass-card reveal">
+          <div class="quote-icon">"</div>
+          <p>Pranav has an exceptional eye for detail and writes clean, well-structured code. His enthusiasm for learning new technologies is truly inspiring.</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">M</div>
+            <div><strong>Mentor</strong><br><small>Internship Program</small></div>
+          </div>
+        </div>
+        <div class="testimonial-card glass-card reveal">
+          <div class="quote-icon">"</div>
+          <p>Working with Pranav is a pleasure. He brings creative ideas and always delivers projects on time with great attention to responsive design.</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">T</div>
+            <div><strong>Team Lead</strong><br><small>Frontend Team</small></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT SECTION -->
+  <section id="contact" class="contact section">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Say Hello</span>
+        <h2 class="section-title">Get In <em>Touch</em></h2>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-info reveal">
+          <h3>Let's work together</h3>
+          <p>I'm open to internship opportunities and freelance projects. Feel free to reach out!</p>
+          <div class="contact-items">
+            <div class="contact-item"><span class="contact-icon">📧</span><span>pranavaidhya86@gmail.com</span></div>
+            <div class="contact-item"><span class="contact-icon">📞</span><span>7805804681</span></div>
+            <div class="contact-item"><span class="contact-icon">📍</span><span>India</span></div>
+            <div class="contact-item"><span class="contact-icon">💼</span><span>github.com/pranavvaidhya</span></div>
+          </div>
+          <div class="social-links">
+            <a href="https://github.com/pranavvaidhya" target="_blank" class="social-btn">GH</a>
+            <a href="#" class="social-btn">LI</a>
+            <a href="#" class="social-btn">TW</a>
+          </div>
+        </div>
+        <form class="contact-form reveal" id="contactForm">
+          <div class="form-group">
+            <input type="text" placeholder="Your Name" class="form-input" required />
+          </div>
+          <div class="form-group">
+            <input type="email" placeholder="Your Email" class="form-input" required />
+          </div>
+          <div class="form-group">
+            <input type="text" placeholder="Subject" class="form-input" />
+          </div>
+          <div class="form-group">
+            <textarea placeholder="Your Message" class="form-input form-textarea" rows="5" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full">Send Message ✦</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <span class="nav-logo">PV<span class="dot">.</span></span>
+          <p>Frontend Developer passionate about building beautiful web experiences.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Navigate</h4>
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#portfolio">Work</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <div class="footer-col">
+          <h4>Projects</h4>
+          <a href="https://pranavvaidhya.github.io/tasky-todo-app" target="_blank">Tasky App</a>
+          <a href="#">Portfolio</a>
+          <a href="https://github.com/pranavvaidhya" target="_blank">GitHub</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 <strong>Pranav Vaidhya</strong>. Built with HTML, CSS & JavaScript.</p>
+        <p>Developed by Pranav vaidhya</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    /* ── Theme Toggle ── */
+    const html = document.documentElement;
+    const saved = localStorage.getItem('pv_theme') || 'dark';
+    html.setAttribute('data-theme', saved);
+    document.getElementById('themeToggle').addEventListener('click', () => {
+      const next = html.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+      html.setAttribute('data-theme', next);
+      localStorage.setItem('pv_theme', next);
+    });
+
+    /* ── Loader ── */
+    window.addEventListener('load', () => {
+      setTimeout(() => document.getElementById('loader').classList.add('hidden'), 1200);
+    });
+
+    /* ── Sticky Nav ── */
+    window.addEventListener('scroll', () => {
+      document.getElementById('navbar').classList.toggle('scrolled', scrollY > 50);
+      document.getElementById('scrollTop').classList.toggle('visible', scrollY > 400);
+    });
+
+    /* ── Hamburger ── */
+    const ham = document.getElementById('hamburger');
+    const nav = document.getElementById('navLinks');
+    ham.addEventListener('click', () => { ham.classList.toggle('active'); nav.classList.toggle('open'); });
+    nav.querySelectorAll('a').forEach(a => a.addEventListener('click', () => { ham.classList.remove('active'); nav.classList.remove('open'); }));
+
+    /* ── Scroll Reveal ── */
+    new IntersectionObserver((es) => es.forEach(e => { if(e.isIntersecting) e.target.classList.add('visible'); }), { threshold: 0.12 })
+      .observe && document.querySelectorAll('.reveal').forEach(el =>
+        new IntersectionObserver((es) => es.forEach(e => { if(e.isIntersecting) e.target.classList.add('visible'); }), { threshold: 0.12 }).observe(el)
+      );
+
+    /* ── Skill Bars ── */
+    new IntersectionObserver((es) => es.forEach(e => { if(e.isIntersecting) e.target.querySelectorAll('.skill-fill').forEach(b => b.style.width = b.dataset.width + '%'); }), { threshold: 0.3 })
+      .observe && document.querySelectorAll('.skills-grid').forEach(el =>
+        new IntersectionObserver((es) => es.forEach(e => { if(e.isIntersecting) e.target.querySelectorAll('.skill-fill').forEach(b => b.style.width = b.dataset.width + '%'); }), { threshold: 0.3 }).observe(el)
+      );
+
+    /* ── Scroll Top ── */
+    document.getElementById('scrollTop').addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
+
+    /* ── Contact Form ── */
+    document.getElementById('contactForm').addEventListener('submit', e => {
+      e.preventDefault();
+      const btn = e.target.querySelector('[type=submit]');
+      btn.textContent = 'Sent! ✓'; btn.style.background = '#22c55e';
+      setTimeout(() => { btn.textContent = 'Send Message ✦'; btn.style.background = ''; e.target.reset(); }, 3000);
+    });
+
+    /* ── Active Nav Link ── */
+    const secs = document.querySelectorAll('section[id]');
+    window.addEventListener('scroll', () => {
+      let cur = '';
+      secs.forEach(s => { if(scrollY >= s.offsetTop - 100) cur = s.id; });
+      document.querySelectorAll('.nav-link').forEach(a => a.classList.toggle('active', a.getAttribute('href') === '#'+cur));
+    });
+  </script>
+</body>
+</html>
